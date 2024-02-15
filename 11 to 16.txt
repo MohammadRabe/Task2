@@ -1,0 +1,122 @@
+________formating_________
+
+* <b> Bold </b>
+* <strong> Bold because important </strong> ------> engine search matter
+* <i> italic </i>
+* <em> emphasis </em>  -------> wise words
+* <small>text</small>
+* <del> deleted words </del>
+* <mark> highlighted </mark>
+* H<sub>2</sub> O
+* 2<sup>3</sup> = 8
+* <ins> new text </ins> -------> insert new text
+* <u> underlined text </u> 
+
+________links & Anchor tag_________
+
+link is an inlined element
+
+<a href="" > Click here </a> 
+
+* is an inlined element
+- title="" ( global attribute )  ------> when hovering a msg displays
+- target="_blank" ( costum attribute ) ------> to open in new tab
+* we can redirect to a place in the same page with # sympol as follow >>>>>>>>>>   <a href="#the place id ">
+	- id="" ( global attribute ) to sign the element
+* redirection to another file in the system as follow  >>>>>>>>>  <a href="the path" >
+* <a href="mailto:the email address">
+
+_________img tag______________
+
+<img src="" alt="" />
+the image can be from the system or URi
+
+- alt="the alternative text" (costum attribute)
+- width and height it's better to be managed in css
+
+__________Lists UL, OL, DL______
+
+lists are block elements
+
+__UL (unordered list)__
+
+elements of the list have bullet signs
+<ul>
+	<li>  list item  </li>
+</ul
+__OL (ordered elements)__
+
+elements are ordered by defaul with numbers
+
+<ol>
+	<li>  list item  </li>
+</ol>
+
+- reversed 
+- start="start from number"
+- type="A or a or I or i"
+- <li value="the order number "
+
+__DL (description list)__
+
+<dl>
+	<dt> term1 </dt>   ----------> description term
+	<dd> detail1 </dd> ----------> description detail
+	<dd> detail2 </dd>
+	<dt> term2 </dt>
+	<dd> detail1 </dd>
+	<dd> detail2 </dd>
+</dl>
+
+___________table____________
+
+previously, web pages were made with table element.
+<table> 
+	<caption> Table </caption>
+	<thead>
+		<tr>		-------> table row
+			<th>Name</th> -> table head cell
+			<th>Age</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> Mohammad </td> -------> table data cell
+			<td>20</td>
+		</tr>
+		<tr>
+			<td> Gamal </td>
+			<td> 19 </td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+		<td colspan="2">empty</td>
+		</tr>
+		</tfoot>
+</table>
+
+- border="2" ----> it's better to manage with css
+- cellspadding='3px' ----> also ^^^^^^^^^^^^^^^^^
+* we can merge two colmns by using one <td colspan="the number of colmns"> text </td>
+
+__________________________
+
+* <span> text </span>  ( inline container )--------> has no style by user-agent, used to access dealing with text by making it as element 
+* <br /> ------> break ===== line feed 
+* <hr /> ( block element ) ------> horizonatal rule  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

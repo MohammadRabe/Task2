@@ -1,0 +1,77 @@
+__________<div> element___________
+
+is a container for group of elements
+
+* it's a block element
+* div inside div is used
+* previously, the web page sections were made of div elements 
+	for example: <div class="header"> for the header section </div>
+- class(global attribute) attribute is used to apply css features to the elements of the div
+
+* Note: span is a container of a text 
+	div is a container of elements
+___________entities____________
+
+* <  =  &lt;
+* >  =  &gt;
+* copyright sign  =  &copy;
+
+___________semantic elements__________
+
+(logical elments)
+in HTML 5 we can dispense with the div expression in many cases
+
+* <div class="header"> </div>   -----in HTML5-----> <header> </header>
+* <nav> navigation bar </nav>
+* <main> </main>
+	<section> </sectoin>
+		<article> </article>
+	<aside> </aside>
+* <footer> </footer>
+
+___________layout with div elment_________
+
+___________layout with semantic element__________ 
+
+* for img and its caption we have the semantic element -------> <figure> </figure>
+* the caption has semantic element ------------> <figcaption> </figcaption>
+
+___________audio tag______________
+
+<audio src=".mp3">
+<source src=".ogg" type="audio/ogg">
+<source src=".wav" type="audio/was">
+Your browser doesn't support this audio type  --------------------> if no type is supported
+</audio>
+
+* <source src="" type="MIME type"> -----------> is used to add audio file with different type if the browser does not support a specific type
+* all modern browsers support .mp3 type so no need for <source src type>
+ 
+- controls
+- autoplay -----> not work in most of browsers 
+- loop  - muted
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+
+___________attributes for input___________
+
+- readonly  ---------> readonly and the data in the field will be sent
+- disabled  ---------> readonly and the data in the field will not be sent
+- autofocus
+- min&maxlength
+
+___________radio & checkbox____________
+
+* radio
+	<input type="radio" name="os" id="win" value="windows">
+	<label for="win">windows</label>
+
+- checked 
+* - id can not be repeated
+
+* how to attache a label to the element ---------> when click on the label the field will be clicked
+<input type=checkbox value="" name="" id="id">
+<label for="id">label</label>
+
+___________select & textarea____________
+
+<select name="country" id="">
+	<optgroup label="Africa">
+	<option value="Egypt">Egypt</option>
+	<option value="Libya">Libya</option>
+	</optgroup>
+</select>
+- multiple ----------> Ctrl + click to choose multiple choices
+- <option selected
+
+* textarea
+<textarea name="subject" cols="" rows="" min&maxlength="" placeholder=""> initial text </textarea>
+
+___________file & search & url & date & month & time____________
+
+* type="
+	- file
+	- search
+	- url
+	- date
+	- month
+	- time
+
+___________quote____________
+
+* <q> a quote </q> (inlined)
+* <blockquote> block quote </blockquote>
+* <wbr>  ----------> word break  (for long links)
+* <bdi> -----------> be directional isolated
+* <buttoe> click </button>  ---------> a button has a job with javascript code
+
+___________end of form_________
+
+* <form novalidate >
+* <form target="_blank">
+
+Datalist ---------> as select but with search feature
+
+<input list="list id" name="country">
+<datalist id="list id">
+	<option value="Egypt">
+	<option value="Yemen">
+</datalist>
+
+___________++ elements____________
+
+* <pre> </pre>	----------> preformated (if we want the format of text as it is)
+* <code> programming code </code>
+* <iframe src="" iframeborder="" width&height> </iframe>
+
+___________accissiblity____________
+
+to make it easier for screen reader
+
+* color contrast must be taken in consideration
+* to make an element do another job
+<div role="radio" aria-checked aria-labelledby="id" tabindex="0"(tab reachable)>
+<label id="id"> choice </label> 

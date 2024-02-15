@@ -1,0 +1,47 @@
+
+* The elements in the header are instructions to the browser.
+* <title></title> is used to put a title for the page.
+* self-closed element is an element that doesn't need to the closing term and it's written in this way :  <tagname />
+
+___meta___
+
+is a self-closed element
+* charset="UTF-8"  >>>>>> 				  is an attribute for coding and it supports arabic.
+* name="description" content='the description' >>>>>>>>>> is for the description of the page.
+* <link rel="" href=""/>   >>>>>>>>>>>>>> explaination later.
+
+______<!-- comment -->_______
+
+* comment is used explain the purpose of meta element for instance.
+
+_____________________________
+
+<!DOCTYPE html>
+it's very important and should be written in any html file as it is to tell the browser how to render the text.
+* html means render the text according to html 5.
+
+_______headings______________
+
+headers size extends from h1 to h6 
+h1 is largest 
+* when use h1 element the user-agent gives the text a style (css code).
+* the best behaviour is to follow hierarchy style.(so h1 must be used one time)
+
+_______syntax________________
+
+the browser ignores spaces
+* double or single qoutation mark will not make a different 
+* when one word after the equal mark we can dispense with the quotation marks
+
+_______paragraph_____________
+
+<p>text</p>
+* this element is a block element
+block element is an element that the user-agent makes for it spaces up and down , right and left >>  ( line feed ).
+* the counter of block element is inline.
+
+_______attributes_____________
+
+ global attributes and private or custom attributes 
+* global are the attributes that are used for any element for instance : class (to differ between elements of the same type) - hidden (form its name)
+* private or custom are attributes that are exclusive to an element such as : <img src="" alt=""/>

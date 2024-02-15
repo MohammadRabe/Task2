@@ -1,0 +1,68 @@
+_________video_________
+
+<video src=""> or <video>
+		  <source src="" type="MIMETYPE">
+- controls 
+- autoplay
+- loop
+- muted
+- width & height
+- poster="photo.jpg" --------> image when loading
+
+* <track src="file.vtt" kind="subtitles" srclang="en" label="English" >  ----------> translation to english
+
+__________form____________
+
+it has fields contain data this data is sent to a URI
+
+* the data is sent by a button or <input type="submit">
+* <input type="" >  is a self-closed element  --------> it's an inlined element
+* <label> field label </label> -------> put label beside the input field
+
+- type= " * text
+	  * password
+	  * email
+	  * submit "
+- required ----------> is a very important attribute
+- name="" is a name given to the field and data sent with this name
+- value ---------> give an initial value to the input element  
+- placeholder="" ------> give a hint text in the text or password field 
+
+_________action___________
+
+<form action="URI" >
+
+- action is to determine the place to which data is sent
+	* if there is no URI the data will be sent to the same page
+
+* the data we send displays as a query string in the URL field
+- method="GET" or "POST" 
+	- GET so the data will display
+	- POST so the data will not display
+
+__________input types_________
+
+- hidden --------> is used to create a fileld with additional data to be sent also
+- reset
+- color ---------> the color hex-code is sent
+- range ---------> <input type="range" min=0 max=100 step=5 value=50 name="the value" >
+- number --------> <input type="number" min=0 max=100 step=10 value=50 name="the number" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
